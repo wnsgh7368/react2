@@ -1,0 +1,30 @@
+em{
+  margin-left: 100px;
+  font-weight: bolder;
+  font-size: 2em;
+}
+table{
+  width: 80%;
+  margin-left: 100px;
+  border: 5px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.5em;
+}
+td,th{
+  width: 20%;
+  border: 5px solid black;
+  color: rgb(122, 114, 114);
+
+}
+tr{
+  height: 30;
+}
+
+#pledge{
+  text-align: right;
+  /* width: 50% ; */
+  font-family: "Song Myung";
+  margin-left: 750px;
+  font-size: 1.5em;
+}

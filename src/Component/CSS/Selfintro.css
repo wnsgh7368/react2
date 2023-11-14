@@ -1,0 +1,22 @@
+#selfIntro{
+  font-family: "Song Myung", serif;
+  margin-left: 20px ;
+  margin-right: 80px;
+  font-size: 0.8em;
+  border: 5pt groove #3f51b5;
+}
+h3{
+  color : rgb(102, 102, 205);
+}
+.division{
+  margin-left: 50px ;
+  margin-right: 50px;
+  color: rgb(122, 114, 114);
+}
+
+
+/*
+p{
+  border: 7px dashed blue;
+}
+*/

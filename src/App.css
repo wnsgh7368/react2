@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+body {
+  font-family: "Nanum Gothic";
+  background-color: #282c34;
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-left : 50px;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: white;
+}
+
+
+/* --------nav css style-------- */
+
+nav {
+  display: flex; /* 링크를 수평으로 배치하도록 설정 */
+  font-family: "Nanum Pen Script";
+  font-size: 20px;
+  position: absolute; /* 절대 위치로 지정 */
+  bottom: 0; /* 화면 하단에 위치 */
+  left: 0; /* 화면 왼쪽에 위치 */
+  width: 100%;
+}
+
+nav a {
+  font-family: "Nanum Pen Script";
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  margin-right: 5px; /* 각 링크 사이의 가로 간격을 추가하여 가로 정렬 */
+  text-align: center;
+}
+/* -----------------------------*/
+
+#index{
+  font-size: 150px;
+  margin-left : 500px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+}
+/* ...이전 CSS 코드... */
+
+
+a:link, a:visited {
+  background-color:#eeeeee; 
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  width:100%;
+  font-size: 1.5em;
+}
+a:hover, a:active { 
+  background-color: #FF4500; 
+  color:white ;
+}
+
+button {
+  font-family: "Nanum Pen Script";
+  background-color: rgb(124, 88, 72);
+  color: white ;
+  padding: 10px 15px;
+  margin: 20px; 
+  font-size: 50px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+button:hover {
+  background-color: rgb(223, 180, 99);
+  color: white;
+}
+
+/* ...이전 CSS 코드... */
+
+
+main {
+  font-family: "Nanum Pen Script";
+  background-color: #282c34;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/*
+footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  font-size: 100px;
+}*/
+
+

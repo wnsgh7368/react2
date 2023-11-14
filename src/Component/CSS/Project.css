@@ -1,0 +1,21 @@
+#project{
+  margin-left: 500px;
+}
+img{
+  width:1200px;
+  height:800px;
+}
+
+
+fieldset {
+  margin-left: 20px;
+  font-size: 1.5em;
+  border-color: rgb(113, 113, 179);
+  max-width: 50%;
+  color: rgb(122, 114, 114);
+  border: 3pt groove;
+}
+
+legend {
+  color: black;
+}
